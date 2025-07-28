@@ -1,0 +1,39 @@
+{
+  "total_collections": 3,
+  "validation_results": [
+    {
+      "collection_name": "Collection 1",
+      "status": "PASS",
+      "issues": [],
+      "stats": {
+        "total_documents": 7,
+        "total_pages": 75,
+        "total_sections": 107,
+        "pdf_files": 7
+      }
+    },
+    {
+      "collection_name": "Collection 2",
+      "status": "PASS",
+      "issues": [],
+      "stats": {
+        "total_documents": 15,
+        "total_pages": 256,
+        "total_sections": 589,
+        "pdf_files": 15
+      }
+    },
+    {
+      "collection_name": "Collection 3",
+      "status": "PASS",
+      "issues": [],
+      "stats": {
+        "total_documents": 9,
+        "total_pages": 130,
+        "total_sections": 585,
+        "pdf_files": 9
+      }
+    }
+  ],
+  "overall_status": "PASS"
+}
