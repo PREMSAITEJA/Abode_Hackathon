@@ -46,33 +46,51 @@ Challenge_1a/
 
 ## 🚀 Quick Start
 
-### Prerequisites
+### ⚡ Super Easy Setup - Virtual Environment Ready!
 
-- Python 3.9+
-- Docker (optional)
+**No manual installation needed!** A pre-configured virtual environment with all required packages is ready to use.
 
-### Installation
+#### Option 1: One-Click Activation (Recommended)
+
+1. **Double-click `activate_env.bat`** in this folder
+2. Your environment is activated with all ML/NLP packages ready!
+
+#### Option 2: Manual Activation
 
 ```bash
-# Install dependencies
-pip install PyMuPDF scikit-learn sentence-transformers numpy jsonschema
-
-# Or use requirements.txt
-pip install -r requirements.txt
+# From the Challenge_1a folder:
+venv\Scripts\activate
 ```
 
 ### Running the Solution
 
 ```bash
-# Process all PDFs
+# 1. Make sure environment is activated (see above)
+
+# 2. Process all PDFs
 python process_pdfs.py
 
-# Check accuracy against expected results
+# 3. Check accuracy against expected results
 python accuracy_check.py
 
-# Run comprehensive test suite
+# 4. Run comprehensive test suite
 python test_suite.py
 ```
+
+### 🎯 Pre-installed Packages
+
+Your virtual environment includes:
+
+- **PyMuPDF (1.26.3)** - PDF manipulation and text extraction
+- **sentence-transformers (5.0.0)** - Advanced NLP for text processing
+- **torch (2.7.1)** - Deep learning framework
+- **scikit-learn (1.7.1)** - Machine learning algorithms
+- **numpy (2.3.2)** - Numerical computing
+- **pandas (2.3.1)** - Data manipulation
+- **jsonschema (4.25.0)** - JSON schema validation
+- **pytest (8.4.1)** - Testing framework
+
+💡 **See `requirements.txt` for the complete list of dependencies.**
 
 ### Docker Deployment
 
